@@ -13,12 +13,24 @@
       "postId": 1
     }
   ],
-  "fruits":[
+  "fruits": [
     {
-      "id": 1,
-      "name": "Mango",
-      "quantity":10,
-      "price": 350
+      "id": 2,
+      "name": "orange",
+      "price": 500,
+      "quantity": 20
+    },
+    {
+      "id": 3,
+      "name": "banane",
+      "price": 4700,
+      "quantity": 30
+    },
+    {
+      "id": 4,
+      "name": "kiwi",
+      "price": 800,
+      "quantity": 50
     }
   ],
   "profile": {
