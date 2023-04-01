@@ -35,5 +35,13 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "client": [
+    {
+      "id": 1,
+      "name": "mohamed",
+      "address": "ghazela",
+      "tel": 52980996
+    }
+  ]  
 }
