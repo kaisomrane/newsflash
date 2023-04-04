@@ -7,6 +7,16 @@ const routes: Routes = [
       redirectTo: 'fruits/home',
       pathMatch: 'full',
     },
+    {
+      path: 'client',
+      redirectTo: 'client/home',
+      pathMatch: 'full',
+    },
+    {
+      path: 'factures',
+      redirectTo: 'factures/home',
+      pathMatch: 'full',
+    },
     
   ];
 

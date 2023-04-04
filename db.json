@@ -43,5 +43,13 @@
       "address": "ghazela",
       "tel": 52980996
     }
+  ],
+    "factures": [
+      {
+        "id": 1,
+        "name": "mohamed",
+        "article": "",
+        "numero": 20
+      }
   ]  
 }

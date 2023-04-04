@@ -18,7 +18,7 @@ export class FruitsService {
    }
     
    update(payload:Fruits){
-    return this.http.put(`http://localhost:8080/Fruit`,payload);
+    return this.http.put(`http://localhost:8080/Fruit/${payload.id}`,payload);
    }
    delete(id:number){
     return this.http.delete<Fruits>(`http://localhost:8080/Fruit/${id}`);
