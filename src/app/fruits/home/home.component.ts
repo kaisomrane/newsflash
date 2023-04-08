@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   idTodelete: number = 0;
  
   constructor(private fruitService: FruitsService) {}
+  
   ngOnInit(): void {
      this.deleteModal = new window.bootstrap.Modal(
       document.getElementById('deleteModal')

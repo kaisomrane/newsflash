@@ -14,6 +14,9 @@ export class EditComponent implements OnInit {
     name: '',
     price: 0,
     quantity: 0,
+    category:{    id: 0,
+      name: '',
+      description: ''}
   };
   constructor(
     private route: ActivatedRoute,

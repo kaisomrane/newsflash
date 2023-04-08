@@ -18,6 +18,12 @@ const routes: Routes = [
       pathMatch: 'full',
     },
     
+    {
+      path: 'category',
+      redirectTo: 'category/home',
+      pathMatch: 'full',
+    },    
+    
   ];
 
 @NgModule({

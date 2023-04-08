@@ -8,6 +8,7 @@ import { ClientModule } from './client/client.module';
 import { FruitsRoutingModule } from './fruits/fruits-routing.module';
 import { FruitsModule } from './fruits/fruits.module';
 import { CreateComponent } from './factures/create/create.component';
+import { CategoryModule } from './category/category.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CreateComponent } from './factures/create/create.component';
     FruitsRoutingModule,
     HttpClientModule,
     FruitsModule,
-    ClientModule
+    ClientModule,
+    CategoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
